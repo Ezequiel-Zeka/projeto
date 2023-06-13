@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gerenciamento de Estoque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Estoque</h1>
+        <h2>Controle seu estoque de forma simples e eficiente</h2>
+    </header>
+
+    <main>
+        <h3>Stok Company</h3>
+        <p>Com nosso sistema de gerenciamento de estoque, você poderá controlar todas as suas entradas e saídas de produtos de forma rápida e fácil.</p>
+        <ul>
+            <li>Adicione novos produtos ao estoque</li>
+            <li>Registre saídas de produtos</li>
+            <li>Mantenha o controle de seu inventário</li>
+      <li>Faça tudo de uma forma simples e sem erro</li>
+        </ul>
+
+        <h3>Como funciona?</h3>
+        <p>Para utilizar nosso sistema, basta preencher o formulário abaixo:</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        <p>Obrigado por entrar em contato! Em breve retornaremos sua mensagem.</p>
+
+        <a class="btn-download">Download</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gerenciamento de Estoque</p>
+        <p><a href="#">Política de Privacidade</a></p>
+    </footer>
+</body>
+</html>
+
+__________________________________________________________________________________________________________________________________________________________________
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: rgb(0, 51, 102);
+  color: #FFFFFF;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.btn {
+  background-color: rgb(0, 51, 102);
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #FFFFFF;
+  color: rgb(0, 51, 102);
+  border: 1px solid rgb(0, 51, 102);
+}
+
+.btn-download {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(0, 51, 102);
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}body {
+  background-color: #007FFF;
+}
+body {
+  color: #FFFFFF;
+}
+
+
